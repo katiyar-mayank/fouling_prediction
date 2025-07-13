@@ -26,8 +26,8 @@ scaled_df = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)
 data = scaled_df.values
 
 # -------------------- Config --------------------
-input_len = 30
-output_len = 20
+input_len = 200
+output_len = 50
 num_features = data.shape[1]
 use_residual_learning = False  # Optional toggle
 
